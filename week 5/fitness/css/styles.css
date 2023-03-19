@@ -1,0 +1,136 @@
+/*
+Author: Eric Kibet
+Date: 9th March 2023
+File Name: styles.css
+ */
+
+body {
+  background-color: #000;
+}
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #000;
+  height: 190px;
+  width: 25%;
+  float: left;
+}
+
+header img {
+  margin: 0 auto;
+}
+nav {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+main {
+  clear: left;
+  background-color: #fff;
+  padding: 2%;
+  font-size: 1.15em;
+  font-family: "Roboto Slab", serif;
+}
+.hours {
+  margin-left: 10%;
+}
+#weights,
+#cardion,
+#training {
+  margin: 0.2%;
+}
+/* #exercises {
+  clear: left;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #f2f2f2;
+  padding: 1% 2%;
+}
+#exercises dt {
+  font-weight: bold;
+}
+#exercises dd {
+  padding: 0.5% 1% 2% 0;
+} */
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+nav li {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+nav li a {
+  font-size: 1.5em;
+  font-family: Verdana, Arial, sans-serif;
+  border-top: 1px solid #fff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+footer p {
+  font-size: 0.75em;
+  text-align: center;
+  color: #fff;
+  padding: 0 1em;
+}
+footer p a {
+  color: #fff; /* Sets the link colour */
+  text-decoration: none;
+}
+#contact {
+  text-align: center;
+}
+#contact a {
+  color: #000;
+  text-decoration: none;
+}
+.action {
+  font-size: 1.35em;
+  color: #666600;
+  font-weight: bold;
+}
+
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+  display: block;
+}
+.tablet-desktop {
+  display: none;
+}
+.tel-link {
+  background-color: #404040;
+  padding: 2%;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+.tel-link a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+}
+.round {
+  border-radius: 8px;
+}
