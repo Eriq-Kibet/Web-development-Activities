@@ -1,0 +1,142 @@
+/*
+Author: Eric Kibet
+Date: 9th March 2023
+File Name: styles.css
+ */
+
+body {
+  background-color: #000;
+}
+/* Tablet Viewport: Style rule for header */
+@media screen and (min-width: 769px) {
+  /* Desktop Viewport: Style rule for header */
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px;
+    width: 25%;
+    float: left;
+  }
+}
+header img {
+  margin: 0 auto;
+}
+/* Desktop Viewport: Style rules for nav area */
+nav {
+  float: right;
+  width: 70%;
+  margin: 4em 1em 0 0;
+}
+main {
+  clear: left;
+}
+main h1 {
+  font-size: 1.8em;
+}
+.hours {
+  margin-left: 10%;
+}
+#weights,
+#cardion,
+#training {
+  width: 29%;
+  float: left;
+  margin: 0 2%;
+}
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px) {
+}
+#exercises {
+  clear: left;
+}
+#exercises dt {
+  font-weight: bold;
+}
+/* 
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+/* Tablet Viewport: Style rules for nav area */
+nav ul {
+  text-align: right;
+}
+nav li {
+  border: none;
+}
+nav li a {
+  padding: 0.5em 1em;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+footer p {
+  font-size: 0.75em;
+  text-align: center;
+  color: #fff;
+  padding: 0 1em;
+}
+footer p a {
+  color: #fff; /* Sets the link colour */
+  text-decoration: none;
+}
+#contact {
+  text-align: center;
+}
+#contact a {
+  color: #000;
+  text-decoration: none;
+}
+.action {
+  font-size: 1.35em;
+  color: #666600;
+  font-weight: bold;
+}
+
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+@media screen and (min-width: 630px) {
+  /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+  .mobile {
+    display: block;
+  }
+  .tablet-desktop {
+    display: none;
+  }
+}
+.tel-link {
+  background-color: #404040;
+  padding: 2%;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+.tel-link a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+}
+.round {
+  border-radius: 8px;
+}
