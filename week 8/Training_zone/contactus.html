@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--The website was created by: Eric Kibet-->
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap"
+         rel="stylesheet"
+         />
+      <link rel="stylesheet" href="css/styles.css" />
+      <script src="script.js"></script>
+      <title>contact us</title>
+   </head>
+   <body>
+      <div id="container">
+         <!-- Mobile Nav -->
+         <nav class="mobile-nav">
+         <div id="menu-links">
+         <a href="index.html">Home</a>
+         <a href="about.html">About Us</a>
+         <a href="classes.html">Classes</a>
+         <a href="nutrition.html">Nutrition</a>
+         <a href="contact.html">Contact Us</a>
+         </div>
+         <a class="menu-icon">
+         <div>&#9776;</div>
+         </a>
+         </nav>
+       </div>  
+      <!-- Use the header area for the website name or logo -->
+      <header>
+         <div class="tablet-desktop">
+            <img src="images/contactus.jpg" alt="contact us" 
+               class="round"/>
+         </div>
+      </header>
+      <nav>
+         <ul>
+            <li>
+               <a href="index.html">Home</a>
+            </li>
+            <li>
+               <a href="training.html">Training Article</a> 
+            </li>
+            <li>
+               <a href="trainers.html">Our Trainers</a> 
+            </li>
+            <li>
+               <a href="announcements.html">Announcements</a>  
+            </li>
+            <li>
+               <a href="links.html">Links</a> 
+            </li>
+            <li>
+               <a href="contactus.html">Contact Us</a>
+            </li>
+         </ul>
+      </nav>
+      <main>
+         <div class="contact">
+            <h1>
+               Contact Us
+            </h1>
+            <p class="tel-link"><a href="tel:0747791243">our Phone is 07 4779 1243</a></p>
+            <p>fax: 4779 1244</p>
+            <p>address: 12 Plongk Street, Cairnsville, Queensland</p>
+            <p>email: training@trainingzone.com.au</p>
+            <p>
+            <ul>
+               <li>
+                  For this month only, you can bring a friend to our evening training sessions for half price.
+               </li>
+               <li>We now provide a laundry service to current training customers. Ask about it when you book your next session.</li>
+               <li>A representative from the Transport authority will be in our training centre on Friday the 13th todiscuss their new training system, “Perfectrain”.</li>
+            </ul>
+            </p>
+         </div>
+         <div id="form">
+            <h2>Complete the form below to begin your free trial.</h2>
+            <form class="form-grid"  name="contactForm"
+            action="submitted.html"
+            onsubmit="return
+      validateForm()">
+               <!-- Start Form -->
+               <fieldset>
+                  <legend>Customer Information</legend>
+                  <label for="fName">First Name:</label>
+                  <input type="text" name="fName" id="fName">
+                  <label for="lName">Last Name:</label>
+                  <input type="text" name="lName" id="lName">
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" id="email">
+                  <label for="phone">Phone: </label>
+                  <input type="tel" id="phone" name= "phone">
+               </fieldset>
+               <fieldset>
+                  <legend>Additional Information</legend>
+                  <p>I would like more information about:</p>
+                  <label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Group
+                     Fitness">Group Fitness</label>
+                  <label for="prtrain"><input type="checkbox" name="interest" id="prtrain"
+                     value="Personal Training">Personal Training</label>
+                  <label for="nutr"><input type="checkbox" name="interest" id="nutr"
+                     value="Nutrition">Nutrition</label>
+               </fieldset>
+               <fieldset>
+                  <legend>Referral Source</legend>
+                  <label for="reference">How did you find us?</label>
+                  <select name="reference" id="reference">
+                     <option value="ad">Advertisement</option>
+                     <option value="friend">Friend</option>
+                     <option value="google">Google</option>
+                     <option value="social">Social Media</option>
+                     <option value="other">Other</option>
+                  </select>
+                  <label for="questions"> Questions?</label>
+                  <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+               </fieldset>
+               <input type="submit" id="submit" value ="Submit" class="btn">
+            </form>
+         </div>
+      </main>
+      <footer>
+         <p>&copy; Copyright 2023. All Rights Reserved.</p>
+         <p><a href="mailto:trainigzone@club.net">trainigzone@club.net</a></p>
+      </footer>
+   </body>
+</html>

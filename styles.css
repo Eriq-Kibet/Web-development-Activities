@@ -1,0 +1,106 @@
+/*
+Author: Eric Kibet
+Date: 9th March 2023
+File Name: styles.css
+ */
+
+/*Media Query for Tablet Viewport */
+@media screen and (min-width: 630px) {
+}
+
+body {
+  background-color: #000;
+}
+/* Desktop Viewport: Style rule for header */
+@media screen and (min-width: 769px) {
+  header {
+    width: 25%;
+    float: left;
+    padding-bottom: 0;
+  }
+}
+
+main {
+  clear: left;
+}
+/* Tablet Viewport: Style rules for nav area */
+@media screen and (min-width: 630px) {
+  nav {
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
+  }
+  nav li {
+    border-top: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+  }
+  nav li:last-child {
+    border-right: none;
+  }
+ 
+  nav ul {
+    text-align: right;
+  }
+  nav li {
+    border: none;
+  }
+  nav li a {
+    padding: 0.5em 1em;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+footer p {
+  font-size: 0.75em;
+  text-align: center;
+  color: #fff;
+  padding: 0 1em;
+}
+footer p a {
+  color: #fff; /* Sets the link colour */
+  text-decoration: none;
+}
+.contact {
+  text-align: center;
+}
+.contact a {
+  color: #000;
+  text-decoration: none;
+}
+.contact li {
+  display: block;
+  text-align: center;
+}
+.action {
+  font-size: 1.35em;
+  color: #666600;
+  font-weight: bold;
+}
+.tel-link {
+  background-color: #404040;
+  padding: 2%;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.tel-link a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+}
+.round {
+  border-radius: 8px;
+}
+/* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+@media screen and (min-width: 630px) {
+  .mobile {
+    display: block;
+  }
+}
